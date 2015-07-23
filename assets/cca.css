@@ -3,52 +3,54 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    margin: 0;
+    margin: 99;
     /*width: 100%;*/
-    background: url('flappy-bg.png') repeat;
+    background: url('apocalypse1.png') no-repeat;
 }
 #header {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: url('flappy-header.png') top center no-repeat;
+    background: url('apocalypse1.png') top center no-repeat;
     background-size: 100%;
 }
 #cca {
-    padding-top: 5%;
-    padding-left: 60%;
-    padding-bottom: 20px;
+    padding-top: 29.5%;
+    padding-left: 8.7%;
+    padding-bottom: 2px;
 }
 #header p{
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-family: 'arial';
     font-size: 20px;
 }
 #header a{
     text-decoration: none;
 }
-#header h1 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 46px;
+#header h1, h2, h3 {
+    color: #ffffff;
+    font-family: 'arial black';
+    font-size: 300px;
 }
 #flappy {
+    color: #ffffff;
+    font-size: 50px;
     position: absolute;
     padding-left: 5%;
-    padding-top: 2%;
+    padding-top: 0%;
 }
 #footer {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: url('flappy-footer.png') top center no-repeat;
+    background: url('hell1.jpg') top center no-repeat;
     background-size: 100%;
 }
 #footer p{
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-family: 'arial';
     font-size: 14px;
     padding: 20px;
     padding-top: 9%;
@@ -56,12 +58,31 @@ body {
     margin: 0;
 }
 #game {
-    margin: 20px;
+    margin: 2px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width:10000px;
+}
+#p{
+    color: #ffffff;
+    font-family: 'arial';
+    font-size: 14px;
+
 }
 
-#logo {
-    width: 220px;
+#leader {
+    position: absolute;
+    left: 81%;
+    top: 40%;
+    font-family: 'arial black';
+    font-size: 40px;
+}
+
+#leader2 {
+    position: absolute;
+    left: 81%;
+    top: 34%;
+    font-family: 'arial black';
+    font-size: 40px;
+    color: gold;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cambridge Coding Academy Flappy Bird</title>
+    <link rel="stylesheet" href="../assets/cca1.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <link rel="stylesheet" href="../lib/bootstrap.css" />
+</head>
+
+<body>
+
+<div class="container">
+    <h1 id="flappy">
+        HELL RUN
+    </h1>
+
+    <div id="cca">
+        <p id="helltxt">
+            WELCOME TO HELL YOUR SOUL WILL SOON BE MINE.
+
+        </p>
+
+        <p id="enter">
+            click the door to begin.
+
+        </p>
+       <a id= "door" href="../pages/index.html">
+    <img src="../assets/gateway2.jpg">
+    </a>
+        <script type="text/javascript" src="../lib/phaser.min.js"></script>
+        <div class="col-xs-1000">
+            <div id="game"> </div>
+        </div>
+        <div class="col-xs-0">
+        </div>
+    </div>
+
+    <ul class="scoreBoard">
+
+    </ul>
+
+    <div id="greeting">
+        <p>The highest scorers are:</p>
+        <form id="greeting-form" class="form-inline">
+            <div class="form-group">
+                <label for="fullName">What's your name?</label>
+                <input type="text" id="fullName"
+                       name="fullName" class="form-control" placeholder="Bob"/>
+                    <label for="email">What's your email?</label>
+                    <input type="email" id="email"
+                           name="email" class="form-control"
+                           placeholder="bob@email.com"/>
+                <input type="hidden" id="score"
+                       name="score" value="0"/>
+            </div>
+            <button class="btn btn-default" type="submit">OK</button>
+        </form>
+    </div>
+</div>
+<script src="../lib/jquery.js"></script>
+<script src="../lib/phaser.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+#flappy{
+    color: #ffffff;
+    font-size: 100px;
+    font-family: "arial black";
+}
+
+.score {
+    color: #ffffff;
+}
+
+.gold {
+    color: gold;
+}
+.banter {
+    font-size: 16px;
+}
+
+#gameLink {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#greeting {
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: #fff;
+    width: 350px;
+    height: 300px;
+    border: 4px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#helltxt {
+
+    font-family: "arial black";
+    font-size: 30px;
+    color: #ffffff;
+    top: 10%;
+    left: 10%;
+}
+
+#enter {
+    font-family: "arial black";
+    font-size: 25px;
+    color: #ffffff;
+    top: 15%;
+    left: 10%;
+
+}
+.score {}
