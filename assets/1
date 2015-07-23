@@ -1,0 +1,38 @@
+function update() {
+
+    game.physics.arcade
+        .overlap(player,
+        pipes,
+        gameOver);
+    for (var i = 0; i < gravs.length; i++) {
+
+        game.physics.arcade
+            .overlap(player,
+            gravs[i],
+            function () {
+                powerUp();
+                gravs[i].kill();
+
+            })
+    }
+
+    game.physics.arcade
+        .overlap(player,
+        pipes,
+        gameOver); game.physics.arcade
+        .overlap(player,
+        gravs,
+        powerUp);
+    if(player.body.y < 0){
+        gameOver();
+    }
+    if(player.body.y  > 500){
+        gameOver();
+    }
+    player.rotation = Math.atan(player.body.velocity.y / 550);
+
+
+    game.physics.arcade
+        .overlap(player,stars, changeScore)
+
+}

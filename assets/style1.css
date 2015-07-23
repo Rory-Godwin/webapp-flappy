@@ -1,0 +1,74 @@
+h1 {
+    color: black;
+    font-size: 75px;
+    font-style: oblique;
+    font-family: Arial;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.p1 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: cursive;
+
+}
+#gameLink {
+    text-align: center;
+    border: 1px solid blue;
+}
+.p2 {
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-family: monospace;
+    animation-duration: 0.7s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes blink {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+.p3 {
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Arial;
+}
+.gold {
+    color: gold;
+    font-size: 20px;
+    font-style: normal;
+    font-family: monospace;
+}
+.silver {
+    color: silver;
+    font-size: 20px;
+    font-style: normal;
+    font-family: monospace;
+}
+.bronze {
+    color: burlywood;
+    font-size: 20px;
+    font-style: normal;
+    font-family: monospace;
+}

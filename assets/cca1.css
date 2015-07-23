@@ -1,0 +1,81 @@
+body {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    /*width: 100%;*/
+    background: url('gateway.jpg') repeat;
+}
+#header {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: url('gateway2.jpg') top center no-repeat;
+    background-size: 100%;
+}
+#cca {
+    padding-top: 8%;
+    padding-left: 65%;
+    padding-bottom: 10px;
+}
+#header p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+#header a{
+    text-decoration: none;
+}
+#header h1 {
+    color: dodgerblue;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 60px;
+}
+#flappy {
+    position: absolute;
+    padding-left: 0%;
+    padding-top: 0%;
+
+}
+
+#helltxt{
+    position: absolute;
+    padding-left: 0%;
+    padding-top: 7%;
+
+}
+#enter{
+    position: absolute;
+    padding-left: 0%;
+    padding-top: 14%;
+}
+#footer p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    padding-top: 9%;
+    padding-left: 15%;
+    margin: 0;
+}
+#game {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#door {
+    position: absolute;
+    left: 42%;
+    top: 42%;
+
+}
+
+#leader {
+    position: absolute;
+    left: 10%;
+    top: 60%
+}
